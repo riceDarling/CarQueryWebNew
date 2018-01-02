@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CarQueryWebNew", "CarQueryWebNew\", "{97CF7CCE-4506-4751-845C-8D5CABC03A96}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = ""
+		SccAuxPath = ""
+		SccLocalPath = ""
+		SccProvider = ""
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{40be8678-9b2a-478a-a80e-16571395730c}|CarQueryWebNewDBHelper.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_53714"
+		Debug.AspNetCompiler.PhysicalPath = "CarQueryWebNew\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53714\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_53714"
+		Release.AspNetCompiler.PhysicalPath = "CarQueryWebNew\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53714\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "53714"
+		SlnRelativePath = "CarQueryWebNew\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarQueryWebNewDBHelper", "CarQueryWebNewDBHelper\CarQueryWebNewDBHelper.csproj", "{40BE8678-9B2A-478A-A80E-16571395730C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97CF7CCE-4506-4751-845C-8D5CABC03A96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97CF7CCE-4506-4751-845C-8D5CABC03A96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97CF7CCE-4506-4751-845C-8D5CABC03A96}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{97CF7CCE-4506-4751-845C-8D5CABC03A96}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{40BE8678-9B2A-478A-A80E-16571395730C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40BE8678-9B2A-478A-A80E-16571395730C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40BE8678-9B2A-478A-A80E-16571395730C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40BE8678-9B2A-478A-A80E-16571395730C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {068F4ED3-6556-4027-9039-3B082B06ECC0}
+	EndGlobalSection
+EndGlobal
